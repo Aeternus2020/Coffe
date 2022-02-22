@@ -1,3 +1,6 @@
+$colWhite: #ffffff
+$colBlack: #000000
+
 html
     scroll-behavior: smooth
 
@@ -10,9 +13,10 @@ header
     color: #D2691E
     text-align: left
     padding: 1rem
+
 main
     div
-        color: white
+        color: $colWhite
         font-size: 1.5em
         margin: 1rem
         padding: 1rem
@@ -30,6 +34,13 @@ button
     font-size: 1.2rem
     a
       text-decoration: none
-      color: black
+      color: $colBlack
 
-    
+#btop
+    position: fixed
+    bottom: 0px
+    left: auto
+    right: 5px
+    font-size: 2rem
+    height: 50px
+    width: 50px

@@ -15,7 +15,7 @@ header {
 }
 
 main div {
-  color: white;
+  color: #ffffff;
   font-size: 1.5em;
   margin: 1rem;
   padding: 1rem;
@@ -36,7 +36,17 @@ button {
 }
 button a {
   text-decoration: none;
-  color: black;
+  color: #000000;
+}
+
+#btop {
+  position: fixed;
+  bottom: 0px;
+  left: auto;
+  right: 5px;
+  font-size: 2rem;
+  height: 50px;
+  width: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
